@@ -24,6 +24,7 @@ CREATE TABLE "agent" (
 
 CREATE TABLE "agencies" (
     "agencyID" int   NOT NULL,
+    "agency" string   NOT NULL,
     "agentURL" string   NOT NULL,
     CONSTRAINT "pk_agencies" PRIMARY KEY (
         "agencyID"
