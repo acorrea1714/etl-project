@@ -1,0 +1,36 @@
+-- Create Tables
+create table agent(
+	agentID INT,
+	firstName varchar,
+	lastName varchar,
+	title varchar,
+	phone varchar,
+	address1 varchar,
+	address2 varchar,
+	city varchar,
+	state varchar,
+	zip varchar,
+	email varchar,
+	artists varchar,
+	agency varchar
+);
+
+create table agencies(
+	agencyID INT,
+	agency varchar,
+	agencyURL varchar
+);
+
+create table artists(
+	artistID INT,
+	artist varchar,
+	attendance varchar,
+	averageGross varchar,
+	territory varchar,
+	agency varchar
+);
+
+create table bands(
+	artist varchar,
+	bandsintown int
+);
