@@ -1,0 +1,446 @@
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #0015cd;
+}
+
+.header-div
+{
+	background-image: url(../images/dashboard-img.jpg);
+	height: 350px;
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+
+.collab-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.collab-div:hover
+{
+	margin-top: -10px;
+}
+
+
+.collab-div i
+{
+	font-size: 35px;
+    font-weight: 300;
+    color: #0015cd;
+}
+
+.collab-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.collab-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.table-box-gray {
+    background: #f8f8f8;
+}
+
+.table-box
+{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.table-box i
+{
+    line-height: 75px;
+    font-size: 50px;
+    color: #0015cd;
+}
+
+.table-box h4
+{
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.table-box p
+{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.project-bg
+{
+	background-image: url(../images/dashboard-img.jpg);
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;    
+}
+.project-bg-1
+{
+	background-image: url(../images/Music.jpg);
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;    
+}
+.project-color {
+    background-color: #0015cd;
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.project-color .main_heading h1
+{
+	color: #fff;
+}
+
+.project-color .underline
+{
+	background-color: #fff;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+@media (max-width: 480px) {
+    .more-features-div-description, .more-features-div-heading
+	{
+		width: 80%;
+	}
+		.header-div
+	{
+		height: 350px;
+	}
+	.slide-text {
+	    color: #fff;
+    	margin-top: 35px;
+	}
+	.slide-text p {
+    	font-size: 12px;
+	}
+
+	.slide-text h1 {
+	    line-height: 25px;
+    	font-size: 25px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.slide-text h1
+	 {
+	 	line-height: 30px;
+    	font-size: 30px;
+	 }
+
+	 .slide-text p {
+    	font-size: 13px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	 .slide-text h1
+	 {
+	 	line-height: 45px;
+    	font-size: 45px;
+	 }
+
+	 .slide-text p {
+    	font-size: 15px;
+	}
+}
+
+
+@media (min-width: 992px) { 
+}
+
+
+@media (min-width: 1200px) {
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #949da5;
+}
+
+
+/*main */
+
+.header-div
+{
+    background-image: url(../images/dashboard-img.jpg);
+	height: 350px;
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+
+.collab-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.collab-div:hover
+{
+	margin-top: -10px;
+}
+
+
+.collab-div i
+{
+	font-size: 35px;
+    font-weight: 300;
+    color: #0060cd;
+}
+
+.collab-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.collab-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.project-bg
+{
+	background-image: url(../images/dashboard-img.jpg);
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;    
+}
+
+.project-color {
+    background-color: #0015cd;
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.project-color .main_heading h1
+{
+	color: #fff;
+}
+
+.project-color .underline
+{
+	background-color: #fff;
+}
+
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+}
